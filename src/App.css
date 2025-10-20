@@ -1,0 +1,57 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input_wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-focus{
+  outline: none;
+  width: 200px;
+}
+
+.box-container{
+  display: grid;
+  gap: 10px;
+}
+
+.card-bg-fliped{
+   height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color:#95CABD;
+}
+
+.boxes{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: gainsboro;
+}
+
+.won_match{
+ font-size: 20px;
+ font-weight: 500;
+ color: green;
+}
+
+.btn-reset {
+  background-color: green;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+}
